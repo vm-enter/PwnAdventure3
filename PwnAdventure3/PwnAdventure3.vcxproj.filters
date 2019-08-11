@@ -1,0 +1,488 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Game Files">
+      <UniqueIdentifier>{47964eed-32e9-42d7-ac33-449f60deacb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\lib">
+      <UniqueIdentifier>{719964c2-ef1f-43fa-9103-6e580dce98bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\hook">
+      <UniqueIdentifier>{17c83950-8896-453d-b26f-074666723df9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Files">
+      <UniqueIdentifier>{c3baa1dd-02c1-41f0-9dfa-b6b5f2fa8039}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Files\Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Common Files\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Common Files\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Game Files\lib\GameLogic">
+      <UniqueIdentifier>{ce741245-78cb-4047-8fb6-54e910094f20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\lib\GameLogic\class">
+      <UniqueIdentifier>{53ea4366-73db-41a0-8e61-513ceb48c5b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\lib\GameLogic\class\Source Files">
+      <UniqueIdentifier>{6729400a-923c-4eb3-bdc7-5ff4a2cf03a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\lib\GameLogic\class\Header Files">
+      <UniqueIdentifier>{e39c7ce4-a151-4bbc-a8d5-7eef4e83481e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\lib\GameLogic\misc">
+      <UniqueIdentifier>{9de0c938-391b-4da6-9de4-294501e765d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\lib\GameLogic\misc\Header Files">
+      <UniqueIdentifier>{1551a06f-65f1-41ca-b2d1-252210239a91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\lib\GameLogic\singleton">
+      <UniqueIdentifier>{3904f169-e68a-490f-b8dc-81e810966660}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\lib\GameLogic\singleton\Source Files">
+      <UniqueIdentifier>{796b8be8-77b7-4e73-bc17-de0a1f108eb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\lib\GameLogic\singleton\Header Files">
+      <UniqueIdentifier>{58ec5578-8ad1-4db1-b23e-12887e797135}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\lib\GameLogic\template">
+      <UniqueIdentifier>{c53f82b4-2c90-4e3f-9bd3-f60230696452}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\lib\GameLogic\template\Header Files">
+      <UniqueIdentifier>{1182fc7a-617d-4118-a9fa-91f2348ac21d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\lib\GameLogic\template\Source Files">
+      <UniqueIdentifier>{7270a375-5d96-4269-9a2d-55df1ab0f13c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\lib\PwnAdventure">
+      <UniqueIdentifier>{cef3138f-3a95-4ab5-b30b-c0031e83f718}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\lib\PwnAdventure\class">
+      <UniqueIdentifier>{d0147ff4-180a-4770-b113-4344ff571ee8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\lib\PwnAdventure\class\Source Files">
+      <UniqueIdentifier>{5b78250d-461a-42fa-80a6-8860b158387a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\lib\PwnAdventure\class\Header Files">
+      <UniqueIdentifier>{3c557e78-fe41-4fd0-9f82-66004d01b3e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\hook\CAutoHack">
+      <UniqueIdentifier>{03ad4723-0d9a-44b9-89b6-c7e8c3e2e29e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\hook\CMsgHandler">
+      <UniqueIdentifier>{86c60e5a-82e0-4ee3-bf2a-3e9eeb73654a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\hook\CMainHack">
+      <UniqueIdentifier>{626846b1-6baa-49c7-9491-fd1bd472cec2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Qt Files">
+      <UniqueIdentifier>{415009d5-e332-4112-8c6a-d38e2bd2dc89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Qt Files\Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Qt Files\Form Files\window">
+      <UniqueIdentifier>{38348e71-a0dd-47f9-b8bf-ef7288e62d33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Qt Files\Form Files\style">
+      <UniqueIdentifier>{10d36259-d771-49f5-9d04-5e95c904a405}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Qt Files\Form Files\widget">
+      <UniqueIdentifier>{e5b477df-9ddf-4829-8b8d-faadd3bd66fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Qt Files\Form Files\style\CDarkStyle">
+      <UniqueIdentifier>{9851e0ea-511a-46c7-993b-6cdbba5222d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Qt Files\Form Files\widget\windowdragger">
+      <UniqueIdentifier>{3503c878-7260-446c-805f-bbb3b0059add}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Qt Files\Form Files\window\CFramelessWindow">
+      <UniqueIdentifier>{2fe2a973-6bac-4913-91f3-15a930db5b08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library Files">
+      <UniqueIdentifier>{c416e7c7-04a1-4df9-ba53-8e1f78e0ca9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library Files\class">
+      <UniqueIdentifier>{8808d282-3d78-4677-8c38-f2b25274da2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library Files\singleton">
+      <UniqueIdentifier>{df893b14-baff-41d9-be46-146ec76bb9ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library Files\template">
+      <UniqueIdentifier>{8d4bbadb-f77d-436a-ac37-a3c71fd8e657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library Files\misc">
+      <UniqueIdentifier>{2f8c1ca7-df6f-44c7-a02d-9c787baf5756}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library Files\template\Source Files">
+      <UniqueIdentifier>{d7deda3d-4f88-46b8-a252-5c506b45973d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library Files\template\Header Files">
+      <UniqueIdentifier>{93cb1d2d-3de1-4d01-af22-70c6e7e89621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library Files\singleton\Souce Files">
+      <UniqueIdentifier>{819798ca-0b5a-4947-841e-ef7bfa87a03e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library Files\singleton\Header Files">
+      <UniqueIdentifier>{f7751801-24c7-4a0e-801a-bc06d8deb08a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library Files\class\Source Files">
+      <UniqueIdentifier>{22f30710-61a6-47a8-9f91-0e849fe9806b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library Files\class\Header Files">
+      <UniqueIdentifier>{114b851d-2c06-4d99-8c2c-40f8842cca28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Qt Files\Form Files\window\CMainWindow">
+      <UniqueIdentifier>{d6d08d79-e816-40b4-b55f-a1c471de3c2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Qt Files\Form Files\window\CMainTab">
+      <UniqueIdentifier>{1d46839b-b29c-4176-b454-063aece6a1e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Qt Files\Form Files\window\CMainWindow\Source Files">
+      <UniqueIdentifier>{e5a501d5-c841-4fe5-b35d-67927d33b7c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Qt Files\Form Files\window\CMainWindow\Header Files">
+      <UniqueIdentifier>{d308e599-8cac-4a94-9449-202af076c192}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\hook\CAutoHack\Source Files">
+      <UniqueIdentifier>{db5a12be-a796-4b08-95c4-2d65b453fc9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\hook\CAutoHack\Header Files">
+      <UniqueIdentifier>{ab6b70ac-f52d-4224-99f6-a687734abb2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Qt Files\Form Files\window\CBotTab">
+      <UniqueIdentifier>{26afccdb-9ce3-4a47-a3d0-93524af217bc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Common Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Common Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="extvars.cpp">
+      <Filter>Common Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>Game Files\lib\GameLogic\class\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WriteStream.cpp">
+      <Filter>Game Files\lib\GameLogic\class\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Game Files\lib\GameLogic\singleton\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerConnection.cpp">
+      <Filter>Game Files\lib\GameLogic\singleton\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Spawner.cpp">
+      <Filter>Game Files\lib\GameLogic\class\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AIZone.cpp">
+      <Filter>Game Files\lib\GameLogic\class\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Common Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="log.cpp">
+      <Filter>Common Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CMsgHandler.cpp">
+      <Filter>Game Files\hook\CMsgHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Common Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>Game Files\lib\GameLogic\class\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CMainHack.cpp">
+      <Filter>Game Files\hook\CMainHack</Filter>
+    </ClCompile>
+    <ClCompile Include="CDarkStyle.cpp">
+      <Filter>Qt Files\Form Files\style\CDarkStyle</Filter>
+    </ClCompile>
+    <ClCompile Include="windowdragger.cpp">
+      <Filter>Qt Files\Form Files\widget\windowdragger</Filter>
+    </ClCompile>
+    <ClCompile Include="CFramelessWindow.cpp">
+      <Filter>Qt Files\Form Files\window\CFramelessWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="qsingleton.cpp">
+      <Filter>Library Files\template\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CConfigManager.cpp">
+      <Filter>Library Files\singleton\Souce Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CMemoryManager.cpp">
+      <Filter>Library Files\singleton\Souce Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CProcessOneTime.cpp">
+      <Filter>Library Files\class\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CMainTab.cpp">
+      <Filter>Qt Files\Form Files\window\CMainTab</Filter>
+    </ClCompile>
+    <ClCompile Include="CMainWindow.cpp">
+      <Filter>Qt Files\Form Files\window\CMainWindow\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CWndProc.cpp">
+      <Filter>Qt Files\Form Files\window\CMainWindow\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameAPI.cpp">
+      <Filter>Game Files\lib\GameLogic\singleton\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CAutoHack.cpp">
+      <Filter>Game Files\hook\CAutoHack\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CAutoHackCtrl.cpp">
+      <Filter>Game Files\hook\CAutoHack\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CBotTab.cpp">
+      <Filter>Qt Files\Form Files\window\CBotTab</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Common Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="native.hpp">
+      <Filter>Common Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TSingleton.hpp">
+      <Filter>Game Files\lib\GameLogic\template\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="extvars.hpp">
+      <Filter>Common Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorRef.hpp">
+      <Filter>Game Files\lib\GameLogic\template\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.hpp">
+      <Filter>Game Files\lib\GameLogic\class\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerSet.hpp">
+      <Filter>Game Files\lib\GameLogic\class\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Spawner.hpp">
+      <Filter>Game Files\lib\GameLogic\class\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.hpp">
+      <Filter>Game Files\lib\GameLogic\class\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.hpp">
+      <Filter>Game Files\lib\GameLogic\class\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WriteStream.hpp">
+      <Filter>Game Files\lib\GameLogic\class\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="World.hpp">
+      <Filter>Game Files\lib\GameLogic\singleton\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerConnection.hpp">
+      <Filter>Game Files\lib\GameLogic\singleton\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AIZone.hpp">
+      <Filter>Game Files\lib\GameLogic\class\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.hpp">
+      <Filter>Game Files\lib\GameLogic\class\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="enums.hpp">
+      <Filter>Game Files\lib\GameLogic\class\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.hpp">
+      <Filter>Common Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="log.hpp">
+      <Filter>Common Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Loot.hpp">
+      <Filter>Game Files\lib\GameLogic\class\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CpwnClient.hpp">
+      <Filter>Game Files\lib\PwnAdventure\class\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PwnAdventure.hpp">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="headers.hpp">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CMsgHandler.hpp">
+      <Filter>Game Files\hook\CMsgHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="CMainHack.hpp">
+      <Filter>Game Files\hook\CMainHack</Filter>
+    </ClInclude>
+    <ClInclude Include="qsingleton.hpp">
+      <Filter>Library Files\template\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CConfigManager.hpp">
+      <Filter>Library Files\singleton\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CMemoryManager.hpp">
+      <Filter>Library Files\singleton\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CProcessOneTime.hpp">
+      <Filter>Library Files\class\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CWndProc.hpp">
+      <Filter>Qt Files\Form Files\window\CMainWindow\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CMsgHandlerRequest.hpp">
+      <Filter>Game Files\hook\CMsgHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest.hpp">
+      <Filter>Game Files\lib\GameLogic\class\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameAPI.hpp">
+      <Filter>Game Files\lib\GameLogic\singleton\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CAutoHack.hpp">
+      <Filter>Game Files\hook\CAutoHack\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CAutoHackCtrl.hpp">
+      <Filter>Game Files\hook\CAutoHack\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="PwnAdventure3.qrc">
+      <Filter>Common Files\Resource Files</Filter>
+    </QtRcc>
+    <QtRcc Include="darkstyle.qrc">
+      <Filter>Common Files\Resource Files</Filter>
+    </QtRcc>
+    <QtRcc Include="framelesswindow.qrc">
+      <Filter>Common Files\Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="CDarkStyle.hpp">
+      <Filter>Qt Files\Form Files\style\CDarkStyle</Filter>
+    </QtMoc>
+    <QtMoc Include="windowdragger.h">
+      <Filter>Qt Files\Form Files\widget\windowdragger</Filter>
+    </QtMoc>
+    <QtMoc Include="CFramelessWindow.hpp">
+      <Filter>Qt Files\Form Files\window\CFramelessWindow</Filter>
+    </QtMoc>
+    <QtMoc Include="CMainTab.hpp">
+      <Filter>Qt Files\Form Files\window\CMainTab</Filter>
+    </QtMoc>
+    <QtMoc Include="CMainWindow.hpp">
+      <Filter>Qt Files\Form Files\window\CMainWindow\Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="CBotTab.hpp">
+      <Filter>Qt Files\Form Files\window\CBotTab</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\icon_window_minimize.png">
+      <Filter>Common Files\Resource Files</Filter>
+    </Image>
+    <Image Include="images\icon_window_restore.png">
+      <Filter>Common Files\Resource Files</Filter>
+    </Image>
+    <Image Include="images\icon_window_maximize.png">
+      <Filter>Common Files\Resource Files</Filter>
+    </Image>
+    <Image Include="images\icon_window_close.png">
+      <Filter>Common Files\Resource Files</Filter>
+    </Image>
+    <Image Include="darkstyle\icon_close.png">
+      <Filter>Common Files\Resource Files</Filter>
+    </Image>
+    <Image Include="darkstyle\icon_restore.png">
+      <Filter>Common Files\Resource Files</Filter>
+    </Image>
+    <Image Include="darkstyle\icon_undock.png">
+      <Filter>Common Files\Resource Files</Filter>
+    </Image>
+    <Image Include="darkstyle\icon_branch_closed.png">
+      <Filter>Common Files\Resource Files</Filter>
+    </Image>
+    <Image Include="darkstyle\icon_branch_end.png">
+      <Filter>Common Files\Resource Files</Filter>
+    </Image>
+    <Image Include="darkstyle\icon_branch_more.png">
+      <Filter>Common Files\Resource Files</Filter>
+    </Image>
+    <Image Include="darkstyle\icon_branch_open.png">
+      <Filter>Common Files\Resource Files</Filter>
+    </Image>
+    <Image Include="darkstyle\icon_vline.png">
+      <Filter>Common Files\Resource Files</Filter>
+    </Image>
+    <Image Include="darkstyle\icon_checkbox_checked.png">
+      <Filter>Common Files\Resource Files</Filter>
+    </Image>
+    <Image Include="darkstyle\icon_checkbox_indeterminate.png">
+      <Filter>Common Files\Resource Files</Filter>
+    </Image>
+    <Image Include="darkstyle\icon_checkbox_unchecked.png">
+      <Filter>Common Files\Resource Files</Filter>
+    </Image>
+    <Image Include="darkstyle\icon_checkbox_checked_pressed.png">
+      <Filter>Common Files\Resource Files</Filter>
+    </Image>
+    <Image Include="darkstyle\icon_checkbox_indeterminate_pressed.png">
+      <Filter>Common Files\Resource Files</Filter>
+    </Image>
+    <Image Include="darkstyle\icon_checkbox_unchecked_pressed.png">
+      <Filter>Common Files\Resource Files</Filter>
+    </Image>
+    <Image Include="darkstyle\icon_checkbox_checked_disabled.png">
+      <Filter>Common Files\Resource Files</Filter>
+    </Image>
+    <Image Include="darkstyle\icon_checkbox_indeterminate_disabled.png">
+      <Filter>Common Files\Resource Files</Filter>
+    </Image>
+    <Image Include="darkstyle\icon_checkbox_unchecked_disabled.png">
+      <Filter>Common Files\Resource Files</Filter>
+    </Image>
+    <Image Include="darkstyle\icon_radiobutton_checked.png">
+      <Filter>Common Files\Resource Files</Filter>
+    </Image>
+    <Image Include="darkstyle\icon_radiobutton_unchecked.png">
+      <Filter>Common Files\Resource Files</Filter>
+    </Image>
+    <Image Include="darkstyle\icon_radiobutton_checked_pressed.png">
+      <Filter>Common Files\Resource Files</Filter>
+    </Image>
+    <Image Include="darkstyle\icon_radiobutton_unchecked_pressed.png">
+      <Filter>Common Files\Resource Files</Filter>
+    </Image>
+    <Image Include="darkstyle\icon_radiobutton_checked_disabled.png">
+      <Filter>Common Files\Resource Files</Filter>
+    </Image>
+    <Image Include="darkstyle\icon_radiobutton_unchecked_disabled.png">
+      <Filter>Common Files\Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="framelesswindow.ui">
+      <Filter>Qt Files\Form Files\window\CFramelessWindow</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="darkstyle\darkstyle.qss">
+      <Filter>Common Files\Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

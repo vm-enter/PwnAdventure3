@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/About-64.png</file>
+        <file>images/Add Row-64.png</file>
+        <file>images/checkmark-50.png</file>
+        <file>images/Close Window-64.png</file>
+        <file>images/Computer-64.png</file>
+        <file>images/Copy2-64.png</file>
+        <file>images/Copy-64.png</file>
+        <file>images/Delete Row-64.png</file>
+        <file>images/icon_window_close.png</file>
+        <file>images/icon_window_maximize.png</file>
+        <file>images/icon_window_minimize.png</file>
+        <file>images/icon_window_restore.png</file>
+        <file>images/Open Folder-64.png</file>
+        <file>images/Pause-64.png</file>
+        <file>images/Resume Button-64.png</file>
+        <file>images/Save as-64.png</file>
+        <file>images/Save-64.png</file>
+        <file>images/Search-64.png</file>
+        <file>images/settings-64.png</file>
+        <file>images/Stop-64.png</file>
+        <file>images/Trash-64.png</file>
+    </qresource>
+</RCC>
